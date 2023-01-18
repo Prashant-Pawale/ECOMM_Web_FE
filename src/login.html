@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Ecommerce | Login</title>
+  </head>
+  <body>
+    <div id="loginPage">
+      <div class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="row">
+            <a class="navbar-brand" href="#">Ecommerce</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container my-5 border border-2 rounded border-dark w-50 mx-auto p-3"
+      >
+        <div class="row my-2" id="loginForm">
+          <h2 class="home_title mx-auto text-center">Welcome to Ecommerce</h2>
+          <h5 class="col w-50 mx-auto text-center">
+            Please login to your account
+          </h5>
+          <div class="my-2 row justify-content-center">
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="loginEmail"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <div class="my-2 row justify-content-center">
+            <div class="col-sm-9">
+              <input
+                type="password"
+                class="form-control"
+                id="loginPassword"
+                placeholder="Password"
+              />
+            </div>
+          </div>
+          <div class="my-3 row justify-content-center">
+            <div class="col w-50 mx-auto text-center">
+              <button type="button" class="btn btn-primary" id="loginButton">
+                Login
+              </button>
+            </div>
+          </div>
+          <div class="my-2 row justify-content-center">
+            <div class="col w-50 mx-auto text-center">
+              <p>Don't have an account?</p>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                id="showSignupButton"
+              >
+                Create your account
+              </button>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="auth_error_msg col w-50 mx-auto text-center text-danger"
+              id="authErrMsg"
+            >
+              Some error occurred
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="auth_error_msg col w-50 mx-auto text-center text-success"
+              id="succErrMsg"
+            >
+              Account Created Successfully !
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container my-5 border border-2 rounded border-dark w-50 mx-auto p-3 "
+      >
+        <div class="row my-2" id="signupForm">
+          <h5 class="col w-50 mx-auto text-center">
+            Please create your account using email
+          </h5>
+          <div class="my-2 row justify-content-center">
+            <div class="col-sm-9">
+              <input type="text" class="form-control" placeholder="Your name" />
+            </div>
+          </div>
+          <div class="my-2 row justify-content-center">
+            <div class="col-sm-9">
+              <input
+                type="text"
+                class="form-control"
+                id="signupEmail"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <div class="my-2 row justify-content-center">
+            <div class="col-sm-9">
+              <input
+                type="password"
+                class="form-control"
+                id="signupPassword"
+                placeholder="Password"
+              />
+            </div>
+          </div>
+          <div class="my-3 row justify-content-center">
+            <div class="col w-50 mx-auto text-center">
+              <button type="button" class="btn btn-primary" id="signupButton">
+                Signup
+              </button>
+            </div>
+          </div>
+          <div class="my-2 row justify-content-center">
+            <div class="col w-50 mx-auto text-center">
+              <p>Already have an account?</p>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                id="showLoginButton"
+              >
+                Login to your account
+              </button>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="auth_error_msg col w-50 mx-auto text-center text-danger"
+              id="authErrMsg"
+            >
+              Some error occurred
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="auth_error_msg col w-50 mx-auto text-center text-success"
+              id="succErrMsg"
+            >
+              Account Created Successfully !
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/login.js"></script>
+  </body>
+</html>

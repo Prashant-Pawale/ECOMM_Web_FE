@@ -1,0 +1,19 @@
+div.navbar{
+    padding: 15px 0;
+    background-color: darkgray;
+}
+
+a.navbar-brand{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+body{
+    background-color:burlywood;
+    color: black;
+}
+.home_title{
+    color:black;
+    font-weight: bold;
+}
