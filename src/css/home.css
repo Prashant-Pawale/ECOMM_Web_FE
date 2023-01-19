@@ -1,6 +1,14 @@
 .navbar{
     background-color: whitesmoke;
 }
+.cart{
+    color: black;
+    font-weight:600;
+}
+.profile{
+     color: black;
+    font-weight:600;
+}
 a.navbar-brand{
     font-size: 22px;
     font-weight: bold;
@@ -9,8 +17,4 @@ a.navbar-brand{
 body{
     background-color:floralwhite;
     color: black;
-}
-.home_title{
-    color:black;
-    font-weight: bold;
 }
