@@ -1,0 +1,30 @@
+.navbar{
+    background-color: whitesmoke;
+}
+a.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+}
+body{
+    background-color:floralwhite;
+    color: black;
+}
+.home-title{
+    color:black;
+    font-weight: bold;
+}
+.cart{
+    color: black;
+    font-weight:600;
+}
+.profile{
+     color: black;
+    font-weight:600;
+}
+.body-ex-nav{
+    margin-top: 100px;
+}
+.search-bar{
+    width: 250px;
+    margin-left: 65px;
+}

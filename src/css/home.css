@@ -1,20 +1,21 @@
-.navbar{
-    background-color: whitesmoke;
-}
-.cart{
-    color: black;
-    font-weight:600;
-}
-.profile{
-     color: black;
-    font-weight:600;
-}
-a.navbar-brand{
-    font-size: 22px;
-    font-weight: bold;
+.category-title{
+    margin: 20px;
+    font-size: 20px;
+    color: orange;
+    font-weight: 500;
 }
 
-body{
-    background-color:floralwhite;
-    color: black;
+.category-item{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 170px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.category-item a{
+    font-size: 21px;
 }

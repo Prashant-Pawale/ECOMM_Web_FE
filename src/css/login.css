@@ -1,16 +1,10 @@
-.navbar{
-    background-color: whitesmoke;
-}
-a.navbar-brand{
-    font-size: 22px;
-    font-weight: bold;
+.input-login-btn{
+    /* this is nothing but my-2 in bootstrap */
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
-body{
-    background-color:floralwhite;
-    color: black;
-}
-.home_title{
-    color:black;
-    font-weight: bold;
+.input-signup-btn{
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
